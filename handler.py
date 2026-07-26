@@ -61,9 +61,9 @@ def handler(event: dict[str, Any]) -> dict[str, Any]:
 
     workflow = load_workflow(WORKFLOW_DIR, workflow_name)
     placeholders = {
-        "__INPUT_IMAGE__": input_filename,
-        "__OUTPUT_PREFIX__": output_prefix,
-    }
+    "__INPUT_IMAGE__": input_filename,
+    "__OUTPUT_PREFIX__": output_prefix,
+}
     placeholders.update(job_input.get("placeholders") or {})
 
     if is_ui_workflow(workflow):
