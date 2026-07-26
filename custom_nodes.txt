@@ -1,0 +1,5 @@
+# Required by seedvr2-4k-upscale.ui.json and seedvr2-8k-upscale.ui.json.
+https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler.git
+https://github.com/yolain/ComfyUI-Easy-Use.git
+https://github.com/vrgamegirl19/comfyui-vrgamedevgirl.git
+https://github.com/rgthree/rgthree-comfy.git

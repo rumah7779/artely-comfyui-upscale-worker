@@ -1,0 +1,19 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "__INPUT_IMAGE__"
+    }
+  },
+  "2": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "__OUTPUT_PREFIX__",
+      "images": [
+        "1",
+        0
+      ]
+    }
+  }
+}
+

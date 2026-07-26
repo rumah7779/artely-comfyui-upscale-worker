@@ -1,0 +1,21 @@
+{
+  "notes": "Do not commit large model files. SeedVR2 can auto-download models on first use, but production should cache them on a RunPod network volume.",
+  "models": [
+    {
+      "name": "ema_vae_fp16.safetensors",
+      "used_by": [
+        "seedvr2-4k-upscale.ui.json",
+        "seedvr2-8k-upscale.ui.json"
+      ],
+      "target_hint": "ComfyUI/models/SEEDVR2"
+    },
+    {
+      "name": "seedvr2_ema_7b-Q4_K_M.gguf",
+      "used_by": [
+        "seedvr2-4k-upscale.ui.json",
+        "seedvr2-8k-upscale.ui.json"
+      ],
+      "target_hint": "ComfyUI/models/SEEDVR2"
+    }
+  ]
+}
